@@ -1,0 +1,26 @@
+.header {
+  max-width: 1024px;
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+}

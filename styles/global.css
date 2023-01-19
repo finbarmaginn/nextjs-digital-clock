@@ -6,17 +6,37 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 * {
   box-sizing: border-box;
 }
 
 main {
-  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
+}
+
+.container {
+  min-height: calc(100vh - 186px);
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  text-align: center;
 }
 
 footer {
