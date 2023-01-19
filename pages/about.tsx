@@ -19,8 +19,8 @@ export default function About() {
         <article>
           <section>
             <p>
-              This web application is built using NextJS, React, Jest, Modular
-              CSS etc. It utilises NextJS&apos;s server side rendering capabilities.
+              This web application is built using NextJS.
+              It utilises modular CSS and NextJS&apos;s server side rendering capabilities.
             </p>
           </section>
         </article>

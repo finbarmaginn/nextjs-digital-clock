@@ -19,11 +19,14 @@ export default function Home() {
 
       <main className="container">
         <h2 role='heading'>Home</h2>
+        
         <div className="center-content">
           <h3>GMT</h3>
           <Clock timeZone={"GMT"} />
           <h3>EST</h3>
           <Clock timeZone={"EST"} />
+          <h3>MST</h3>
+          <Clock timeZone={"MST"} />
         </div>
 
       </main>
